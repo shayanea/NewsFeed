@@ -52,6 +52,12 @@ export default {
     }
 }
 
+@media (max-width: 768px) {
+  .cards {
+    width: 41%;
+  }
+}
+
 @media (max-width: 550px) {
     .cards {
         width: 100%;
