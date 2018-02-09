@@ -57,7 +57,7 @@ export default {
             ]).then(function(allData) {
                 self.items = [...allData[0],...allData[1],...allData[2]];
                 return self.items.sort((a,b) => {
-                    return new Date(a.publishedAt) - new Date(b.publishedAt)
+                    return new Date(a.publishedAt) + new Date(b.publishedAt)
                 })
             });
         }
