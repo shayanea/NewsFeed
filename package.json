@@ -1,17 +1,20 @@
 {
   "name": "newsfeed",
   "version": "1.0.0",
-  "description": "simple application that use news resources for sharing content",
+  "description":
+    "simple application that use news resources for sharing content",
   "author": "Shayan Araghi <shayanaraghi@live.com>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev":
+      "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js"
   },
   "dependencies": {
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue-lazyload": "^1.1.4"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -55,9 +58,6 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
+  "keywords": ["vuejs", "feed", "news", "application"]
 }
