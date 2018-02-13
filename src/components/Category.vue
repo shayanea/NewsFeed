@@ -62,6 +62,13 @@ export default {
     margin: 0 15px;
 }
 
+@media (max-width: 550px) {
+    .category li {
+        margin: 20px 15px;
+        display: block;
+    }
+}
+
 .category li a {
     cursor: pointer;
     color: #444;
@@ -74,7 +81,7 @@ export default {
 .category li a.active,
 .category li a:hover {
     color: #000;
-    border-bottom: 2px solid #ff0000;
+    border-bottom: 2px solid #538AE4;
     transition: border-bottom 0.3s ease-in, color 0.3s ease-in;
 }
 </style>

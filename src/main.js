@@ -13,5 +13,10 @@ new Vue({
 	el: '#app',
 	router,
 	components: { App },
-	template: '<App/>'
+	template: '<App/>',
+	mounted() {
+		if (localStorage.getItem('list') == null) {
+			return localStorage.setItem('list', JSON.stringify([]));
+		}
+	}
 })
