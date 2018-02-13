@@ -15,18 +15,19 @@ export default {
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Bree+Serif);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
-html,body {
-	background-color: #E5E5E5;
-	min-height: 100vh;
-	font-family: 'Raleway', sans-serif;
+html,
+body {
+    background-color: #f0f3f8;
+    min-height: 100vh;
+    font-family: "Raleway", sans-serif;
 }
 
 #app {
-	width: 85%;
-	margin: 0 auto;
+    width: 85%;
+    margin: 0 auto;
 }
 
-@media(max-width: 990px) {
+@media (max-width: 990px) {
     #app {
         width: 100%;
     }
@@ -35,6 +36,6 @@ html,body {
 #app h1 {
     color: #444;
     font-size: 1.5em;
-	margin: 15px 10px;
+    margin: 15px 10px;
 }
 </style>

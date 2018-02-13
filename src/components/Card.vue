@@ -53,9 +53,9 @@ export default {
 }
 
 @media (max-width: 768px) {
-  .cards {
-    width: 41%;
-  }
+    .cards {
+        width: 41%;
+    }
 }
 
 @media (max-width: 550px) {
@@ -66,7 +66,7 @@ export default {
 
 .cards:hover {
     transform: translate(0, -5px);
-    box-shadow: 0 5px 20px 0 rgba(134, 134, 134, 0.3);
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in;
 }
 
@@ -74,7 +74,7 @@ export default {
     margin: -30px 0 0 0;
     overflow: hidden;
     border-radius: 6px;
-    box-shadow: 0 5px 20px 0 rgba(92, 92, 92, 0.7);
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.1);
     background-color: #263343;
 }
 
@@ -108,7 +108,7 @@ export default {
     top: 0px;
     left: 25px;
     color: #000;
-    background-color: #fff;
+    background-color: #f0f3f8;
     padding: 5px;
     border-radius: 6px;
     font-size: 10px;
